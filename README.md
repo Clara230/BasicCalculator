@@ -7,13 +7,10 @@ namespace Operations
     public class Addition
 
     {
-
-
         public static int Sum (int a, int b)
 
         {
-
-            return a + b;
+           return a + b;
         }
 
         public static double Sum(double a, double b)
@@ -21,16 +18,9 @@ namespace Operations
             return a + b;
 
         }
-
-
         public static double Sum(double[] arrayA)
 
-
-
         {
-
-
-
             double c = 0.0;
 
 
@@ -155,38 +145,17 @@ namespace Operations
     {
 
 
-
-
-
-
-
         public static int Divide(int a, int b)
 
-
-
         {
-
-
 
             return a / b;
 
-
-
         }
-
-
-
-
-
-
 
         public static double Divide(double a, double b)
 
-
-
         {
-
-
 
             return a / b;
 
@@ -286,15 +255,7 @@ namespace Operations
 
         }
 
-
-
-
-
-
-
     }
-
-
 
 }
 44 Operations/Multiply.cs 
@@ -304,31 +265,15 @@ namespace Operations
 @@ -0,0 +1,44 @@
 
 
-
 using System;
-
-
-
 using System.Collections.Generic;
-
-
-
 using System.Text;
-
-
-
-
-
-
 
 namespace Operations
 
 
 
 {
-
-
-
     public class Multiply
 
 
